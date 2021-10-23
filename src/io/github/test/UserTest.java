@@ -9,7 +9,7 @@ public class UserTest {
     public void test() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
         Object user = context.getBean("user");
-        System.out.println(user);
+        System.out.println("hehehahahha");
 
     }
 }
