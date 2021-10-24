@@ -20,14 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="add code about AOP">
-      <change afterPath="$PROJECT_DIR$/src/AOPBeanForXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/github/aoptestbyxml/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/github/aoptestbyxml/BookProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_jdbc_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fujang/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fujang/dao/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fujang/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fujang/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fujang/test/TestForJdbcTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring-test/io/github/aoptest/Improve.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-test/io/github/aoptest/Improve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring-test/io/github/aoptest/UserProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-test/io/github/aoptest/UserProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/github/aoptest/Improve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/github/aoptest/Improve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/github/test/TestForAOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/github/test/TestForAOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-test/META-INF/spring-test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BeanForDruidByProp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeanForDruidByProp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,7 +80,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestForAOP.test2">
+  <component name="RunManager" selected="JUnit.TestForJdbcTemplate.test1">
     <configuration name="TestDataSource.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
@@ -122,17 +129,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestForMbfjllybl2.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestForJdbcTemplate.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.test.*" />
+          <option name="PATTERN" value="com.fujang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.github.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.test.TestForMbfjllybl2" />
-      <option name="METHOD_NAME" value="add" />
+      <option name="PACKAGE_NAME" value="com.fujang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fujang.test.TestForJdbcTemplate" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestForJdbcTemplate.test1" />
+        <item itemvalue="JUnit.TestDataSource.test2" />
         <item itemvalue="JUnit.TestForAOP.test2" />
         <item itemvalue="JUnit.TestForAOP.test1" />
         <item itemvalue="JUnit.TestForMbfjllybl2.test2" />
-        <item itemvalue="JUnit.TestForMbfjllybl2.add" />
-        <item itemvalue="JUnit.TestDataSource.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +185,7 @@
       <workItem from="1635044968474" duration="1937000" />
       <workItem from="1635048123661" duration="296000" />
       <workItem from="1635054452773" duration="9250000" />
-      <workItem from="1635077625275" duration="4081000" />
+      <workItem from="1635077625275" duration="8999000" />
     </task>
     <task id="LOCAL-00001" summary="commit init">
       <created>1634956192197</created>
@@ -348,7 +355,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635080858191</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add code about AOP">
+      <created>1635082731346</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1635082731346</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add code about AOP">
+      <created>1635082737260</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1635082737260</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,10 +412,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="416" y="135" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1635079082598" />
-    <state x="750" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1635055936333">
+    <state x="750" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1635085026861">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="750" y="260" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1635055936333" />
+    <state x="750" y="260" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1635085026861" />
     <state x="733" y="396" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1635058188472">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -407,30 +428,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="724" y="401" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1635058170555" />
-    <state width="1545" height="296" key="GridCell.Tab.0.bottom" timestamp="1635080990150">
+    <state width="1545" height="296" key="GridCell.Tab.0.bottom" timestamp="1635086940640">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1545" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635080990150" />
-    <state width="1545" height="296" key="GridCell.Tab.0.center" timestamp="1635080990149">
+    <state width="1545" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635086940640" />
+    <state width="1545" height="296" key="GridCell.Tab.0.center" timestamp="1635086940639">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1545" height="296" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635080990149" />
-    <state width="1545" height="296" key="GridCell.Tab.0.left" timestamp="1635080990149">
+    <state width="1545" height="296" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635086940639" />
+    <state width="1545" height="296" key="GridCell.Tab.0.left" timestamp="1635086940639">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1545" height="296" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635080990149" />
-    <state width="1545" height="296" key="GridCell.Tab.0.right" timestamp="1635080990150">
+    <state width="1545" height="296" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635086940639" />
+    <state width="1545" height="296" key="GridCell.Tab.0.right" timestamp="1635086940639">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1545" height="296" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635080990150" />
+    <state width="1545" height="296" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635086940639" />
     <state x="436" y="236" key="SettingsEditor" timestamp="1635058194192">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="436" y="236" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1635058194192" />
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635080864255">
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635082744296">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635080864255" />
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635082744296" />
     <state x="615" y="205" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1635058410231">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
