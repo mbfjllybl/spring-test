@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="test between arch and linux">
+    <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="add some code">
+      <change afterPath="$PROJECT_DIR$/.attach_pid2027" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring-test/io/github/test/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-test/io/github/test/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/github/test/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635010219727</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add some code">
+      <created>1635039405481</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635039405481</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +134,7 @@
     <MESSAGE value="commit init" />
     <MESSAGE value="bean test" />
     <MESSAGE value="test between arch and linux" />
-    <option name="LAST_COMMIT_MESSAGE" value="test between arch and linux" />
+    <MESSAGE value="add some code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some code" />
   </component>
 </project>
