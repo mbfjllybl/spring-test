@@ -7,8 +7,8 @@ import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class UserTest {
-    @Test
+public class Test1 {
+    @org.junit.Test
     public void testUser() {
         // BeanFactory
         ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
@@ -18,14 +18,14 @@ public class UserTest {
 
     }
 
-    @Test
+    @org.junit.Test
     public void testBookStore() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
         BookStore bookStore = (BookStore)context.getBean("bookStore1");
         System.out.println(bookStore);
     }
 
-    @Test
+    @org.junit.Test
     public void testMyBean() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
         User user = (User)context.getBean("myBean");
