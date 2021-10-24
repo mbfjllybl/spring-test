@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="add code">
+    <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="add libs for AOP">
+      <change afterPath="$PROJECT_DIR$/src/AOPBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/github/aoptest/Improve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/github/aoptest/UserProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/github/test/TestForAOP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,23 +70,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestForMbfjllybl2.test2">
-    <configuration name="Test1.testMyBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.test.Test1" />
-      <option name="METHOD_NAME" value="testMyBean" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestForAOP.test1">
     <configuration name="TestDataSource.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
@@ -110,6 +98,22 @@
       <option name="PACKAGE_NAME" value="io.github.test" />
       <option name="MAIN_CLASS_NAME" value="io.github.test.TestDataSource" />
       <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestForAOP.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.test" />
+      <option name="MAIN_CLASS_NAME" value="io.github.test.TestForAOP" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestForAOP.test1" />
         <item itemvalue="JUnit.TestForMbfjllybl2.test2" />
         <item itemvalue="JUnit.TestForMbfjllybl2.add" />
         <item itemvalue="JUnit.TestDataSource.test2" />
         <item itemvalue="JUnit.TestDataSource.test1" />
-        <item itemvalue="JUnit.Test1.testMyBean" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +175,7 @@
       <workItem from="1635044968474" duration="1937000" />
       <workItem from="1635048123661" duration="296000" />
       <workItem from="1635054452773" duration="9250000" />
+      <workItem from="1635077625275" duration="2412000" />
     </task>
     <task id="LOCAL-00001" summary="commit init">
       <created>1634956192197</created>
@@ -312,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635068241174</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add libs for AOP">
+      <created>1635077653356</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1635077653356</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,17 +350,18 @@
     <MESSAGE value="test" />
     <MESSAGE value="test FactoryBean and so on" />
     <MESSAGE value="add code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add code" />
+    <MESSAGE value="add libs for AOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="add libs for AOP" />
   </component>
   <component name="WindowStateProjectService">
     <state x="677" y="64" key="#Auto_Import" timestamp="1635055680893">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="677" y="64" key="#Auto_Import/0.0.1920.1080@0.0.1920.1080" timestamp="1635055680893" />
-    <state x="416" y="135" key="#Project_Structure" timestamp="1635045026701">
+    <state x="416" y="135" key="#Project_Structure" timestamp="1635079082598">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="416" y="135" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1635045026701" />
+    <state x="416" y="135" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1635079082598" />
     <state x="750" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1635055936333">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -365,22 +378,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="724" y="401" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1635058170555" />
-    <state width="1040" height="260" key="GridCell.Tab.0.bottom" timestamp="1635075405965">
+    <state width="1039" height="296" key="GridCell.Tab.0.bottom" timestamp="1635080538033">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635075405965" />
-    <state width="1040" height="260" key="GridCell.Tab.0.center" timestamp="1635075405964">
+    <state width="1039" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635080538033" />
+    <state width="1039" height="296" key="GridCell.Tab.0.center" timestamp="1635080538032">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="260" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635075405964" />
-    <state width="1040" height="260" key="GridCell.Tab.0.left" timestamp="1635075405963">
+    <state width="1039" height="296" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635080538032" />
+    <state width="1039" height="296" key="GridCell.Tab.0.left" timestamp="1635080538031">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="260" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635075405963" />
-    <state width="1040" height="260" key="GridCell.Tab.0.right" timestamp="1635075405965">
+    <state width="1039" height="296" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635080538031" />
+    <state width="1039" height="296" key="GridCell.Tab.0.right" timestamp="1635080538032">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="260" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635075405965" />
+    <state width="1039" height="296" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635080538032" />
     <state x="436" y="236" key="SettingsEditor" timestamp="1635058194192">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
