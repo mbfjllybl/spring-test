@@ -11,7 +11,7 @@ public class UserTest {
     public void test() {
         // BeanFactory
         ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
-        User user = (User)context.getBean("user");
+        User user = (User)context.getBean("user3");
         System.out.println(user);
         user.add();
 
