@@ -23,6 +23,7 @@
       <change afterPath="$PROJECT_DIR$/src/io/github/mbfjllybl/BookStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/github/test/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +121,7 @@
       <updated>1634955965309</updated>
       <workItem from="1635044968474" duration="1937000" />
       <workItem from="1635048123661" duration="296000" />
-      <workItem from="1635054452773" duration="480000" />
+      <workItem from="1635054452773" duration="782000" />
     </task>
     <task id="LOCAL-00001" summary="commit init">
       <created>1634956192197</created>
@@ -199,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635047922561</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test">
+      <created>1635055231777</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635055231778</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +238,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="416" y="135" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1635045026701" />
+    <state x="750" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1635055011508">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="750" y="260" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1635055011508" />
     <state width="1427" height="179" key="GridCell.Tab.0.bottom" timestamp="1635048093417">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -250,10 +262,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="436" y="269" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1635054931421" />
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635048041795">
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635055233916">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635048041795" />
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635055233916" />
     <state x="731" y="398" key="git4idea.rebase.GitRebaseDialog" timestamp="1635048037961">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
