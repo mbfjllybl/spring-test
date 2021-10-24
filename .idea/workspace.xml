@@ -19,18 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="test FactoryBean and so on">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/druid-1.1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BeanForDruid.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BeanForDruidByProp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/github/test/TestDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+    <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="add code">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_aop_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/github/mbfjllybl2/Configration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/github/mbfjllybl2/Lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/github/mbfjllybl2/Newer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/github/test/TestForMbfjllybl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mbfjllybl2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring-test/io/github/test/UserTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/github/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/github/test/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,39 +74,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDataSource.test2">
-    <configuration name="Test1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.test.Test1" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1.testBookStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.test.Test1" />
-      <option name="METHOD_NAME" value="testBookStore" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestForMbfjllybl2.test2">
     <configuration name="Test1.testMyBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
@@ -157,13 +123,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestForMbfjllybl2.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.test" />
+      <option name="MAIN_CLASS_NAME" value="io.github.test.TestForMbfjllybl2" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestForMbfjllybl2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.test" />
+      <option name="MAIN_CLASS_NAME" value="io.github.test.TestForMbfjllybl2" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestForMbfjllybl2.test2" />
+        <item itemvalue="JUnit.TestForMbfjllybl2.add" />
         <item itemvalue="JUnit.TestDataSource.test2" />
         <item itemvalue="JUnit.TestDataSource.test1" />
         <item itemvalue="JUnit.Test1.testMyBean" />
-        <item itemvalue="JUnit.Test1.testBookStore" />
-        <item itemvalue="JUnit.Test1.test" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +178,7 @@
       <updated>1634955965309</updated>
       <workItem from="1635044968474" duration="1937000" />
       <workItem from="1635048123661" duration="296000" />
-      <workItem from="1635054452773" duration="5789000" />
+      <workItem from="1635054452773" duration="8440000" />
     </task>
     <task id="LOCAL-00001" summary="commit init">
       <created>1634956192197</created>
@@ -301,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635056167607</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add code">
+      <created>1635065452107</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1635065452107</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +331,8 @@
     <MESSAGE value="add some code" />
     <MESSAGE value="test" />
     <MESSAGE value="test FactoryBean and so on" />
-    <option name="LAST_COMMIT_MESSAGE" value="test FactoryBean and so on" />
+    <MESSAGE value="add code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="677" y="64" key="#Auto_Import" timestamp="1635055680893">
@@ -353,30 +359,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="724" y="401" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1635058170555" />
-    <state width="713" height="222" key="GridCell.Tab.0.bottom" timestamp="1635064735237">
+    <state width="1040" height="260" key="GridCell.Tab.0.bottom" timestamp="1635066549766">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="713" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635064735237" />
-    <state width="713" height="222" key="GridCell.Tab.0.center" timestamp="1635064735236">
+    <state width="1040" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635066549766" />
+    <state width="1040" height="260" key="GridCell.Tab.0.center" timestamp="1635066549766">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="713" height="222" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635064735236" />
-    <state width="713" height="222" key="GridCell.Tab.0.left" timestamp="1635064735236">
+    <state width="1040" height="260" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635066549766" />
+    <state width="1040" height="260" key="GridCell.Tab.0.left" timestamp="1635066549765">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="713" height="222" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635064735236" />
-    <state width="713" height="222" key="GridCell.Tab.0.right" timestamp="1635064735237">
+    <state width="1040" height="260" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635066549765" />
+    <state width="1040" height="260" key="GridCell.Tab.0.right" timestamp="1635066549766">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="713" height="222" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635064735237" />
+    <state width="1040" height="260" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635066549766" />
     <state x="436" y="236" key="SettingsEditor" timestamp="1635058194192">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="436" y="236" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1635058194192" />
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635056357637">
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635065460183">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635056357637" />
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635065460183" />
     <state x="615" y="205" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1635058410231">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -385,6 +391,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="731" y="398" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1635048037961" />
+    <state x="560" y="308" width="672" height="678" key="search.everywhere.popup" timestamp="1635067713192">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="308" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1635067713192" />
     <state x="625" y="184" key="spring file set editor" timestamp="1635045427270">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
