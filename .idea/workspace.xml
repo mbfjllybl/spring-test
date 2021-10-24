@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="add code">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_aop_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.2.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/github/mbfjllybl2/Configration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/github/mbfjllybl2/Lecture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/github/mbfjllybl2/Newer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/github/test/TestForMbfjllybl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mbfjllybl2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +170,7 @@
       <updated>1634955965309</updated>
       <workItem from="1635044968474" duration="1937000" />
       <workItem from="1635048123661" duration="296000" />
-      <workItem from="1635054452773" duration="8440000" />
+      <workItem from="1635054452773" duration="9250000" />
     </task>
     <task id="LOCAL-00001" summary="commit init">
       <created>1634956192197</created>
@@ -306,7 +298,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635065452107</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add code">
+      <created>1635068234562</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1635068234562</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add code">
+      <created>1635068241174</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1635068241174</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,30 +365,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="724" y="401" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1635058170555" />
-    <state width="1040" height="260" key="GridCell.Tab.0.bottom" timestamp="1635066549766">
+    <state width="1040" height="260" key="GridCell.Tab.0.bottom" timestamp="1635075405965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635066549766" />
-    <state width="1040" height="260" key="GridCell.Tab.0.center" timestamp="1635066549766">
+    <state width="1040" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635075405965" />
+    <state width="1040" height="260" key="GridCell.Tab.0.center" timestamp="1635075405964">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="260" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635066549766" />
-    <state width="1040" height="260" key="GridCell.Tab.0.left" timestamp="1635066549765">
+    <state width="1040" height="260" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635075405964" />
+    <state width="1040" height="260" key="GridCell.Tab.0.left" timestamp="1635075405963">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="260" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635066549765" />
-    <state width="1040" height="260" key="GridCell.Tab.0.right" timestamp="1635066549766">
+    <state width="1040" height="260" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635075405963" />
+    <state width="1040" height="260" key="GridCell.Tab.0.right" timestamp="1635075405965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1040" height="260" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635066549766" />
+    <state width="1040" height="260" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635075405965" />
     <state x="436" y="236" key="SettingsEditor" timestamp="1635058194192">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="436" y="236" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1635058194192" />
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635065460183">
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635068246023">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635065460183" />
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635068246023" />
     <state x="615" y="205" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1635058410231">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
