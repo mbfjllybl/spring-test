@@ -2,8 +2,15 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:p="http://www.springframework.org/schema/p"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
+    <util:list id="bookList">
+        <value>book1</value>
+        <value>book2</value>
+        <value>book3</value>
+    </util:list>
     <bean id="user2" class="io.github.mbfjllybl.User">
         <property name="username" value="fujang"></property>
     </bean>
@@ -13,4 +20,10 @@
     </bean>
 
     <bean id="user3" class="io.github.mbfjllybl.User" p:username="lht"></bean>
+
+    <bean id="bookStore1" class="io.github.mbfjllybl.BookStore">
+        <property name="books">
+            <ref bean="bookList"></ref>
+        </property>
+    </bean>
 </beans>
