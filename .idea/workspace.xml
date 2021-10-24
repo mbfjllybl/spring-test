@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="test" />
+    <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/io/github/mbfjllybl/BookStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +59,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -63,7 +67,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserTest.testBookStore">
     <configuration name="UserTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
@@ -80,8 +84,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserTest.testBookStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.test" />
+      <option name="MAIN_CLASS_NAME" value="io.github.test.UserTest" />
+      <option name="METHOD_NAME" value="testBookStore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTest.testBookStore" />
         <item itemvalue="JUnit.UserTest.test" />
       </list>
     </recent_temporary>
@@ -97,7 +118,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634955965309</updated>
-      <workItem from="1635044968474" duration="1765000" />
+      <workItem from="1635044968474" duration="1937000" />
+      <workItem from="1635048123661" duration="296000" />
+      <workItem from="1635054452773" duration="480000" />
     </task>
     <task id="LOCAL-00001" summary="commit init">
       <created>1634956192197</created>
@@ -169,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635045461041</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test">
+      <created>1635047922561</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635047922561</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,30 +230,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="416" y="135" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1635045026701" />
-    <state width="1427" height="179" key="GridCell.Tab.0.bottom" timestamp="1635045284165">
+    <state width="1427" height="179" key="GridCell.Tab.0.bottom" timestamp="1635048093417">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1427" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635045284165" />
-    <state width="1427" height="179" key="GridCell.Tab.0.center" timestamp="1635045284165">
+    <state width="1427" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635048093417" />
+    <state width="1427" height="179" key="GridCell.Tab.0.center" timestamp="1635048093415">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1427" height="179" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635045284165" />
-    <state width="1427" height="179" key="GridCell.Tab.0.left" timestamp="1635045284164">
+    <state width="1427" height="179" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635048093415" />
+    <state width="1427" height="179" key="GridCell.Tab.0.left" timestamp="1635048093414">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1427" height="179" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635045284164" />
-    <state width="1427" height="179" key="GridCell.Tab.0.right" timestamp="1635045284165">
+    <state width="1427" height="179" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635048093414" />
+    <state width="1427" height="179" key="GridCell.Tab.0.right" timestamp="1635048093416">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1427" height="179" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635045284165" />
-    <state x="436" y="269" key="SettingsEditor" timestamp="1635045104175">
+    <state width="1427" height="179" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635048093416" />
+    <state x="436" y="269" key="SettingsEditor" timestamp="1635054931421">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="436" y="269" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1635045104175" />
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635045473580">
+    <state x="436" y="269" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1635054931421" />
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635048041795">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635045473580" />
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635048041795" />
+    <state x="731" y="398" key="git4idea.rebase.GitRebaseDialog" timestamp="1635048037961">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="731" y="398" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1635048037961" />
     <state x="625" y="184" key="spring file set editor" timestamp="1635045427270">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
