@@ -24,4 +24,11 @@ public class UserTest {
         BookStore bookStore = (BookStore)context.getBean("bookStore1");
         System.out.println(bookStore);
     }
+
+    @Test
+    public void testMyBean() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+        User user = (User)context.getBean("myBean");
+        System.out.println(user);
+    }
 }

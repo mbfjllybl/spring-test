@@ -26,4 +26,6 @@
             <ref bean="bookList"></ref>
         </property>
     </bean>
+
+    <bean id="myBean" class="io.github.factorybean.MyBean"></bean>
 </beans>

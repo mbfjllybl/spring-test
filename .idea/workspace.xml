@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/io/github/mbfjllybl/BookStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/github/factorybean/MyBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/io/github/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/github/test/UserTest.java" afterDir="false" />
@@ -68,7 +68,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.testBookStore">
+  <component name="RunManager" selected="JUnit.UserTest.testMyBean">
     <configuration name="UserTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
@@ -101,8 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserTest.testMyBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.test" />
+      <option name="MAIN_CLASS_NAME" value="io.github.test.UserTest" />
+      <option name="METHOD_NAME" value="testMyBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTest.testMyBean" />
         <item itemvalue="JUnit.UserTest.testBookStore" />
         <item itemvalue="JUnit.UserTest.test" />
       </list>
@@ -121,7 +138,7 @@
       <updated>1634955965309</updated>
       <workItem from="1635044968474" duration="1937000" />
       <workItem from="1635048123661" duration="296000" />
-      <workItem from="1635054452773" duration="782000" />
+      <workItem from="1635054452773" duration="1484000" />
     </task>
     <task id="LOCAL-00001" summary="commit init">
       <created>1634956192197</created>
@@ -207,7 +224,28 @@
       <option name="project" value="LOCAL" />
       <updated>1635055231778</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test">
+      <created>1635055241364</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1635055241364</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test">
+      <created>1635055246374</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1635055246374</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test">
+      <created>1635055252289</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1635055252289</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,14 +272,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="677" y="64" key="#Auto_Import" timestamp="1635055680893">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="677" y="64" key="#Auto_Import/0.0.1920.1080@0.0.1920.1080" timestamp="1635055680893" />
     <state x="416" y="135" key="#Project_Structure" timestamp="1635045026701">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="416" y="135" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1635045026701" />
-    <state x="750" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1635055011508">
+    <state x="750" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1635055936333">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="750" y="260" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1635055011508" />
+    <state x="750" y="260" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1635055936333" />
+    <state x="169" y="94" key="DiffContextDialog" timestamp="1635055574663">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="169" y="94" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1635055574663" />
     <state width="1427" height="179" key="GridCell.Tab.0.bottom" timestamp="1635048093417">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -262,10 +308,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="436" y="269" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1635054931421" />
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635055233916">
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635055575610">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635055233916" />
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635055575610" />
     <state x="731" y="398" key="git4idea.rebase.GitRebaseDialog" timestamp="1635048037961">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
