@@ -14,4 +14,18 @@ public class User {
     public void add() {
         System.out.println("hello spring");
     }
+
+    public User(String username) {
+        this.username = username;
+    }
+
+    public User() {
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                '}';
+    }
 }

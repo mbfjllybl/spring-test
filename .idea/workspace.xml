@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="add some code">
-      <change beforePath="$PROJECT_DIR$/src/io/github/mbfjllybl/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/github/mbfjllybl/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/github/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/github/test/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635040903668</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add some code">
+      <created>1635041265625</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635041265625</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
