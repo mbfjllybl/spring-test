@@ -2,13 +2,21 @@ package io.github.aoptest;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
 @Aspect
+//增强类的优先级，数值越小优先级越高
+@Order(1)
 public class Improve {
 
-    @Before(value = "execution(* io.github.aoptest.UserProxy.add(..))")
+    @Pointcut(value = "execution(* io.github.aoptest.UserProxy.add(..))")
+    public void pointDemo() {
+
+    }
+
+    @Before(value = "pointDemo()")
     public void before() {
         System.out.println("before...");
     }
