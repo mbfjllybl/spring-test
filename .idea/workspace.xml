@@ -19,17 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="add code about JDBCTemplate">
-      <change afterPath="$PROJECT_DIR$/lib/log4j-api-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-core-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-slf4j-impl-2.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lo4j2.xml" afterDir="false" />
+    <list default="true" id="2daee6f9-d942-4188-b26c-d7294e271c21" name="Changes" comment="add log4j2">
+      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xxx/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xxx/test/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/spring-test/com/fujang/test/TestForJdbcTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-test/com/fujang/test/TestForJdbcTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring-test/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-test/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/fujang/test/TestForJdbcTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fujang/test/TestForJdbcTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo4j2.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,7 +75,39 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestForJdbcTemplate.test1">
+  <component name="RunManager" selected="JUnit.Test2.add">
+    <configuration name="Test1.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xxx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xxx.test" />
+      <option name="MAIN_CLASS_NAME" value="xxx.test.Test1" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xxx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xxx.test" />
+      <option name="MAIN_CLASS_NAME" value="xxx.test.Test2" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestDataSource.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-test" />
       <extension name="coverage">
@@ -88,22 +119,6 @@
       <option name="PACKAGE_NAME" value="io.github.test" />
       <option name="MAIN_CLASS_NAME" value="io.github.test.TestDataSource" />
       <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestForAOP.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.test.TestForAOP" />
-      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,29 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestForMbfjllybl2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.test.TestForMbfjllybl2" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test2.add" />
+        <item itemvalue="JUnit.Test1.add" />
         <item itemvalue="JUnit.TestForJdbcTemplate.test1" />
         <item itemvalue="JUnit.TestDataSource.test2" />
         <item itemvalue="JUnit.TestForAOP.test2" />
-        <item itemvalue="JUnit.TestForAOP.test1" />
-        <item itemvalue="JUnit.TestForMbfjllybl2.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +181,7 @@
       <workItem from="1635048123661" duration="296000" />
       <workItem from="1635054452773" duration="9250000" />
       <workItem from="1635077625275" duration="14001000" />
-      <workItem from="1635149224571" duration="2467000" />
+      <workItem from="1635149224571" duration="4183000" />
     </task>
     <task id="LOCAL-00001" summary="commit init">
       <created>1634956192197</created>
@@ -380,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635087674452</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add log4j2">
+      <created>1635159403531</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1635159403531</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +415,8 @@
     <MESSAGE value="add libs for AOP" />
     <MESSAGE value="add code about AOP" />
     <MESSAGE value="add code about JDBCTemplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="add code about JDBCTemplate" />
+    <MESSAGE value="add log4j2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add log4j2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="677" y="64" key="#Auto_Import" timestamp="1635055680893">
@@ -432,6 +439,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="733" y="396" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1635058188472" />
+    <state x="708" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1635160288010">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="708" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1635160288010" />
     <state x="169" y="94" key="DiffContextDialog" timestamp="1635055574663">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -440,34 +451,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="724" y="401" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1635058170555" />
-    <state width="1131" height="296" key="GridCell.Tab.0.bottom" timestamp="1635159142282">
+    <state width="1388" height="284" key="GridCell.Tab.0.bottom" timestamp="1635160870692">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1131" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635159142282" />
-    <state width="1131" height="296" key="GridCell.Tab.0.center" timestamp="1635159142281">
+    <state width="1388" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1635160870692" />
+    <state width="1388" height="284" key="GridCell.Tab.0.center" timestamp="1635160870692">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1131" height="296" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635159142281" />
-    <state width="1131" height="296" key="GridCell.Tab.0.left" timestamp="1635159142281">
+    <state width="1388" height="284" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1635160870692" />
+    <state width="1388" height="284" key="GridCell.Tab.0.left" timestamp="1635160870691">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1131" height="296" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635159142281" />
-    <state width="1131" height="296" key="GridCell.Tab.0.right" timestamp="1635159142282">
+    <state width="1388" height="284" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1635160870691" />
+    <state width="1388" height="284" key="GridCell.Tab.0.right" timestamp="1635160870692">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1131" height="296" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635159142282" />
-    <state x="436" y="236" key="SettingsEditor" timestamp="1635058194192">
+    <state width="1388" height="284" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1635160870692" />
+    <state x="436" y="236" key="SettingsEditor" timestamp="1635160220475">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="436" y="236" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1635058194192" />
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635087873904">
+    <state x="436" y="236" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1635160220475" />
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2" timestamp="1635160430265">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635087873904" />
-    <state x="615" y="205" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1635058410231">
+    <state x="537" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1635160430265" />
+    <state x="793" y="429" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1635160736584">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="615" y="205" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1635058410231" />
+    <state x="793" y="429" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1080@0.0.1920.1080" timestamp="1635160736584" />
+    <state x="615" y="205" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1635160212382">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="615" y="205" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1635160212382" />
     <state x="731" y="398" key="git4idea.rebase.GitRebaseDialog" timestamp="1635048037961">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

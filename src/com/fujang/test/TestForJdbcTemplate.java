@@ -11,7 +11,7 @@ public class TestForJdbcTemplate {
     public void test1() {
         ApplicationContext context = new ClassPathXmlApplicationContext("BeanForDruidByProp.xml");
         BookService bookService = (BookService)context.getBean("bookService");
-        Book book = new Book("8", "h11ahah", "hiah11iahia");
+        Book book = new Book("8221", "h11ahah", "hiah11iahia");
         bookService.addBook(book);
     }
 }
